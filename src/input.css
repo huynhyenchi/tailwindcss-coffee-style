@@ -34,5 +34,9 @@
   @apply w-8 h-px bg-gray-200;
 }
 .yc-subheadline-label {
-  @apply uppercase mx-4 tracking-widest text-gray-400 font-semibold text-[12px] text-center;
+  @apply uppercase mx-4 tracking-widest text-gray-400 font-semibold text-xs text-center;
+}
+
+.yc-button {
+  @apply text-center uppercase tracking-widest py-4 px-8 text-[12px] font-semibold cursor-pointer hover:bg-opacity-90;
 }
