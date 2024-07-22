@@ -572,6 +572,10 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw_\+_50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
@@ -652,12 +656,20 @@ video {
   display: none;
 }
 
+.h-\[1000px\]{
+  height: 1000px;
+}
+
 .h-\[130px\]{
   height: 130px;
 }
 
 .h-\[280px\]{
   height: 280px;
+}
+
+.h-\[340px\]{
+  height: 340px;
 }
 
 .h-\[380px\]{
@@ -678,6 +690,10 @@ video {
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[80\%\]{
@@ -766,16 +782,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .bg-\[\#1d1f2e\]{
@@ -822,6 +838,10 @@ video {
   background-image: url('./img/magazine03.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
+  background-image: url('./img/parallax.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/product01\.jpg\'\)\]{
   background-image: url('./img/product01.jpg');
 }
@@ -864,6 +884,10 @@ video {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -1277,24 +1301,8 @@ video {
 }
 
 @media (min-width: 480px){
-  .xs\:mb-5{
-    margin-bottom: 1.25rem;
-  }
-
-  .xs\:mb-4{
-    margin-bottom: 1rem;
-  }
-
   .xs\:h-\[200px\]{
     height: 200px;
-  }
-
-  .xs\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .xs\:gap-4{
-    gap: 1rem;
   }
 }
 
