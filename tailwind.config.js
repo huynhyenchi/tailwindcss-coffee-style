@@ -31,7 +31,7 @@ module.exports = {
       },
       animation: {
         slideDown: 'slideDown .5s ease-in-out',
-        fadeIn: 'fadeIn .5s ease-in-out',
+        fadeIn: 'fadeIn .3s ease-in-out',
       },
       backgroundImage: {
         'slider-bg': 'url("./img/slider-bg.jpg")'

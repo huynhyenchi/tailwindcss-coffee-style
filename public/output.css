@@ -584,6 +584,14 @@ video {
   top: 0.75rem;
 }
 
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.bottom-7{
+  bottom: 1.75rem;
+}
+
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
@@ -602,6 +610,15 @@ video {
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .mb-2{
@@ -656,10 +673,6 @@ video {
   display: none;
 }
 
-.h-\[1000px\]{
-  height: 1000px;
-}
-
 .h-\[130px\]{
   height: 130px;
 }
@@ -668,8 +681,8 @@ video {
   height: 280px;
 }
 
-.h-\[340px\]{
-  height: 340px;
+.h-\[300px\]{
+  height: 300px;
 }
 
 .h-\[380px\]{
@@ -682,6 +695,14 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
+.h-\[330px\]{
+  height: 330px;
 }
 
 .w-11\/12{
@@ -711,6 +732,10 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .max-w-screen-2xl{
@@ -826,6 +851,10 @@ video {
   background-image: url('./img/featured2.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-story-01\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-01.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/magazine01\.jpg\'\)\]{
   background-image: url('./img/magazine01.jpg');
 }
@@ -882,6 +911,14 @@ video {
   background-image: url('./img/slider-bg.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-story-02\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-03\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-03.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -936,6 +973,10 @@ video {
 
 .pt-28{
   padding-top: 7rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -997,6 +1038,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[20px\]{
+  font-size: 20px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1027,6 +1072,10 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
+}
+
+.leading-8{
+  line-height: 2rem;
 }
 
 .tracking-widest{
@@ -1192,7 +1241,7 @@ video {
 }
 
 .yc-button:hover{
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.95;
 }
 
 .after\:absolute::after{
@@ -1297,7 +1346,7 @@ video {
 }
 
 .group:hover .group-hover\:animate-fadeIn{
-  animation: fadeIn .5s ease-in-out;
+  animation: fadeIn .3s ease-in-out;
 }
 
 @media (min-width: 480px){
