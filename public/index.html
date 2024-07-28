@@ -69,7 +69,7 @@
       </header>
 
       <main>
-        <div class="slider h-[530px] bg-[url('./img/slider-bg.jpg')] bg-cover bg-no-repeat bg-bottom">
+        <div class="slider h-[530px] bg-[url('./img/slider-bg.jpg')] bg-cover bg-no-repeat bg-bottom mb-24">
           <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
             <div class="mx-16 text-white text-center">
               <div class="uppercase text-[13px] text-gray-300 font-semibold tracking-widest mb-3">Best Place To Buy
@@ -87,17 +87,26 @@
           </div>
         </div> <!-- End slider-->
 
-        <div class="story flex justify-center items-center">
-          <div class="px-4 sm:px-16 md:px-32 lg:px-72 xl:px-80 pt-28 pb-[105px] text-center">
-            <div class="text-[28px] leading-10 mb-6 font-normal">Even the all-powerful Pointing has no control about
-              the blind texts.</div>
-            <div class="text-gray-500 leading-7 mb-6">It is a paradisematic country, in which roasted parts of
-              sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts
-              it is an almost unorthographic life One day however a small line of blind text
-              by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
+        <div class="yc-subheadline">
+          <div class="yc-subheadline-deco-line"></div>
+          <div class="yc-subheadline-label">Our Coffee Stories</div>
+          <div class="yc-subheadline-deco-line"></div>
+        </div>
+
+        <div class="story flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-4 w-[95%] lg:w-[65%] mx-auto mb-24">
+          <div class="basis-1/2">
+            <video autoplay loop muted class="w-full h-full object-cover min-h-[350px]">
+              <source src="video/coffee-video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="basis-1/2 lg:text-left text-center lg:pl-6">
+            <div class="text-[28px] leading-10 mb-6 font-semibold">What is your most special coffee?</div>
+            <div class="text-gray-500 leading-7 mb-6">The French Press is a brewing method that comes closest to cupping.
+            Cupping is the prescribed method by which coffee should be judged. Nothing separates the water from the coffee.
+            To properly discover the flavours, it is best to drink the coffee this way.</div>
             <div class="">
               <a href="#"
-                class="font-light text-[16px] text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0
+                class="font-normal text-[16px] text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 after:left-0
                 after:bg-coffee-50 hover:after:bg-coffee-400 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-400">
                 Read the full Story
               </a>
@@ -388,7 +397,7 @@
           </div>
         </div> <!-- End coffee magazine-->
 
-        <div class="yc-paralla-section bg-[url('./img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[380px] mb-24
+        <div class="yc-paralla-section bg-[url('./img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[380px] md:h-[450px] mb-24
         bg-fixed w-[100vw] relative left-[calc(-50vw_+_50%)]"> <!-- Không có space ở phần tính toán, có thể thêm undersscore hoặc bỏ space luôn -->
       </div> <!-- End parallax-section -->
 
@@ -523,8 +532,7 @@
             <div class="flex flex-col gap-[10px]">
               <div class="">I&apos;m Always Happy to Help</div>
               <div class="text-amber-900 font-semibold mb-16">My e-mail:
-                <a href="mailto:huynhyenchi2105@gmail.com" class="hover:relative after:absolute after:-bottom-1 after:left-0
-                after:bg-coffee-50 hover:after:bg-coffee-400 after:h-px after:w-full after:transition-all after:ease-in-out after:duration-400">
+                <a href="mailto:huynhyenchi2105@gmail.com">
                 huynhyenchi2105&commat;gmail.com
                 </a>
               </div>
