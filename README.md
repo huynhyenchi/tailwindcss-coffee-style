@@ -9,7 +9,7 @@
 Clone project and run test
 
 ...
-$ git clone https://github.com/huynhyenchi/tailwindcss-coffee-style.git
-$ cd TailwindCSS-Coffee-Style
-$ yarn build:css
+$ git clone https://github.com/huynhyenchi/tailwindcss-coffee-style.git<br/>
+$ cd TailwindCSS-Coffee-Style<br/>
+$ yarn build:css<br/>
 $ yarn start:dev
